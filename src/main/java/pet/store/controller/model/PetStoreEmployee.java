@@ -18,10 +18,11 @@ public class PetStoreEmployee {
 	private String employeePhone;
 	private String employeeJobTitle;
 	public PetStoreEmployee(Employee employee) {
-		employeeId = employee.getEmployeeId();
-		employeeFirstName = employee.getEmployeeFirstName();
-		employeeLastName = employee.getEmployeeLastName();
-		employeePhone = employee.getEmployeePhone();
-		employeeJobTitle = employee.getEmployeeJobTitle();
+		
+		this.employeeId = employee.getEmployeeId();
+		this.employeeFirstName = employee.getEmployeeFirstName();
+		this.employeeLastName = employee.getEmployeeLastName();
+		this.employeePhone = employee.getEmployeePhone();
+		this.employeeJobTitle = employee.getEmployeeJobTitle();
 	}
 }
